@@ -1,0 +1,20 @@
+$child-button-color: $child-theme-blue;
+
+.child-button {
+  color: $white;
+  background-color: $child-button-color;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 6px;
+  font-family: cursive;
+  font-size: 2em;
+
+  &:hover {
+    background: darken($child-button-color, 8%);
+    transition: all 0.3s ease;
+  }
+
+  &:active {
+    background: darken($child-button-color, 25%);
+  }
+}
