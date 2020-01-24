@@ -35,12 +35,12 @@ module.exports = async ({ config }) => {
           twigOptions: {
             namespaces: {
               atoms: path.resolve(__dirname, '../', 'node_modules/sous-components-twig/01-atoms'),
-              child_atoms: path.resolve(__dirname, '../', 'components/01-atoms'),
               molecules: path.resolve(__dirname, '../', 'node_modules/sous-components-twig/02-molecules'),
-              child_molecules: path.resolve(__dirname, '../', 'components/02-molecules'),
               organisms: path.resolve(__dirname, '../', 'node_modules/sous-components-twig/03-organisms'),
-              child_organisms: path.resolve(__dirname, '../', 'components/03-organisms'),
               templates: path.resolve(__dirname, '../', 'node_modules/sous-components-twig/04-templates'),
+              child_atoms: path.resolve(__dirname, '../', 'components/01-atoms'),
+              child_molecules: path.resolve(__dirname, '../', 'components/02-molecules'),
+              child_organisms: path.resolve(__dirname, '../', 'components/03-organisms'),
               child_templates: path.resolve(__dirname, '../', 'components/04-templates'),
             },
           },
