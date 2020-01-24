@@ -1,6 +1,6 @@
 import React from 'react';
 
-import animations from 'sous-components-twig/00-global/animations/animations.twig';
+import animations from 'sous-components-twig/global/animations/animations.twig';
 
 /**
  * Add storybook definition for Animations.

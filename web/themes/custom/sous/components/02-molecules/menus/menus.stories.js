@@ -11,7 +11,7 @@ import inlineMenuData from 'sous-components-twig/02-molecules/menus/inline/inlin
 import mainMenuData from 'sous-components-twig/02-molecules/menus/main-menu/main-menu.yml';
 import socialMenuData from 'sous-components-twig/02-molecules/menus/social/social-menu.yml';
 
-import './main-menu/main-menu';
+import 'sous-components-twig/02-molecules/menus/main-menu/main-menu';
 
 /**
  * Storybook Definition.

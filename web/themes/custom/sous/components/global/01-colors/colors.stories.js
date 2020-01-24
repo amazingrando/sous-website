@@ -1,9 +1,9 @@
 import React from 'react';
 
-import colors from 'sous-components-twig/00-global/01-colors/colors.twig';
+import colors from 'sous-components-twig/global/01-colors/colors.twig';
 
-import grayscale from 'sous-components-twig/00-global/01-colors/colors-grayscale.yml';
-import branding from 'sous-components-twig/00-global/01-colors/colors-branding.yml';
+import grayscale from 'sous-components-twig/global/01-colors/colors-grayscale.yml';
+import branding from 'sous-components-twig/global/01-colors/colors-branding.yml';
 
 /**
  * Storybook Definition.
