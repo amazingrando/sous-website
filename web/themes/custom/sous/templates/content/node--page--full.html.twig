@@ -1,0 +1,11 @@
+{% embed "@child_molecules/card/child-card.twig" with {
+  card__extra_classes: ["grid__item"],
+  card__heading: label,
+  card__body: content.field_teaser_text,
+  card__link__url: url,
+  card__button__content: 'More info',
+} %}
+  {% block card__img %}
+    {{ content.field_teaser_media }}
+  {% endblock %}
+{% endembed %}

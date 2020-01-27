@@ -1,0 +1,53 @@
+name: Sous Emulsify
+type: theme
+description: Theme based on <a href="http://emulsify.info">Emulsify</a>.
+base theme: stable
+core: 8.x
+
+# Libraries (These are loaded on every page. Use https://www.drupal.org/developing/api/8/assets#twig whenever possible.)
+libraries:
+  - "sous_emulsify/global"
+  # - 'sous/typekit'
+
+# CKEditor stylesheet loads in wysiwyg to give content editors a better experience
+ckeditor_stylesheets:
+  - dist/style.css
+
+regions:
+  header: Header
+  content: Content # the content region is required
+  sidebar: "Sidebar"
+  footer: Footer
+
+# MUST install `components` module: `drush dl components && drush en components -y`
+# For compatibility with Pattern Lab templates; this list must
+# always be the folders immediately under the `$sourceDir` patterns folder
+# `$sourceDir` = defined in `pattern-lab/config/config.yml` under `sourceDir
+# patterns folder = `$sourceDir` + `_patterns/`
+component-libraries:
+  # Parent components
+  base:
+    paths:
+      - node_modules/sous-components-twig/00-base
+  atoms:
+    paths:
+      - node_modules/sous-components-twig/01-atoms
+  molecules:
+    paths:
+      - node_modules/sous-components-twig/02-molecules
+  organisms:
+    paths:
+      - node_modules/sous-components-twig/03-organisms
+  templates:
+    paths:
+      - node_modules/sous-components-twig/04-templates
+  pages:
+    paths:
+      - node_modules/sous-components-twig/05-pages
+  # Child components
+  child_atoms:
+    paths:
+      - components/01-atoms
+  child_molecules:
+    paths:
+      - components/02-molecules
