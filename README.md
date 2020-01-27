@@ -14,7 +14,7 @@ The theme is using upstream "Core" components and styles that can be shared acro
 - `yarn` (Install the theme dependencies)
 - `yarn develop` (Compile the theme and start the Storybook instance)
 - Create three pages filling out all fields
-- View the homepage and you should see two views. One showing cards using the "Parent" styles only. And one using a mix of parent/child styles. (specifically, the blue button)
+- View the homepage and you should see two views. One showing cards using the "Core" styles only. And one using a mix of core/project styles. (specifically, the blue button)
 
 ## Additional Tooling
 
