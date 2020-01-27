@@ -1,0 +1,20 @@
+uuid: ecc641bb-904c-42d4-9580-3be0b3ee58a3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - line_chef
+id: mainpagecontent
+theme: line_chef
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

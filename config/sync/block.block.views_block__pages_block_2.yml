@@ -1,4 +1,4 @@
-uuid: 8b426b8b-685d-4c56-9e45-d76e3c23fba5
+uuid: 8740f53e-57ed-46dd-b71c-74643a065568
 langcode: en
 status: true
 dependencies:
@@ -7,11 +7,11 @@ dependencies:
   module:
     - views
   theme:
-    - sous_emulsify
+    - line_chef
 id: views_block__pages_block_2
-theme: sous_emulsify
+theme: line_chef
 region: content
-weight: 1
+weight: 0
 provider: null
 plugin: 'views_block:pages-block_2'
 settings:
