@@ -5,7 +5,7 @@ global:
 
 main-menu:
   js:
-    dist/js/02-molecules/menus/main-menu/main-menu.js: {}
+    node_modules/sous-components-twig/02-molecules/menus/main-menu/main-menu.js: {}
   dependencies:
     - core/drupal
 

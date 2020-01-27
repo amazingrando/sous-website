@@ -1,4 +1,4 @@
-name: Sous Emulsify
+name: Line Chef
 type: theme
 description: Theme based on <a href="http://emulsify.info">Emulsify</a>.
 base theme: stable
@@ -6,7 +6,7 @@ core: 8.x
 
 # Libraries (These are loaded on every page. Use https://www.drupal.org/developing/api/8/assets#twig whenever possible.)
 libraries:
-  - "sous_emulsify/global"
+  - "line_chef/global"
   # - 'sous/typekit'
 
 # CKEditor stylesheet loads in wysiwyg to give content editors a better experience
