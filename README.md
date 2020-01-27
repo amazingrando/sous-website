@@ -1,10 +1,10 @@
 # Sous Project
 
-This is a Drupal Project Created initially with the [Sous Project](https://github.com/fourkitchens/sous-drupal-project).
+This is a Drupal Site initially created with the [Sous Project](https://github.com/fourkitchens/sous-drupal-project).
 
 Its theme is based on the [Emulsify Design System](https://github.com/emulsify-ds/emulsify-design-system).
 
-The theme is using upstream "Core" components and styles that can be shared across multiple projects, as well as custom "Project" specific components only used by this project.
+The theme is using upstream "Core" [components](https://github.com/ModulesUnraveled/sous-components-twig) and [styles](https://github.com/ModulesUnraveled/sous-styles) that can be shared across multiple projects, as well as custom "Project" specific components only used by this project.
 
 
 ## Install
@@ -15,8 +15,8 @@ The theme is using upstream "Core" components and styles that can be shared acro
 - `cd web/themes/custom/line_chef` (Move to the theme directory)
 - `yarn` (Install the theme dependencies)
 - `yarn develop` (Compile the theme and start the Storybook instance)
-- Create three pages filling out all fields
-- View the homepage and you should see two views. One showing cards using the "Core" styles only. And one using a mix of core/project styles. (specifically, the blue button)
+- [Login to Drupal](https://sous-project.lndo.site/user) (u:admin/p:admin) and create three pages filling out all fields. (Or [edit the existing pages](https://sous-project.lndo.site/admin/content) - you should just need to upload your own images.)
+- [View the homepage](https://sous-project.lndo.site/) and you should see two views. One showing cards using the "Core" styles only. And one using a mix of core/project styles. (specifically, the blue button)
 
 ## Additional Tooling
 
