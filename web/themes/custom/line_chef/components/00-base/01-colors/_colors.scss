@@ -1,1 +1,8 @@
-$lc-theme-blue: #3498db;
+$lc-blue: #3498db;
+
+// Styleguide
+.sg-colors__color {
+  &--lc-blue {
+    background-color: $lc-blue;
+  }
+}
