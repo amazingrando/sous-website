@@ -31,10 +31,10 @@ These commands are bash scripts located in the `./scripts/sous` directory and de
 
 #### Configuration management scripts
 
-| Command               | Description                                                                                                                                                      |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `yarn confex`         | **Export Config** Export active configuration to the config directory.                                                                                           |
-| `yarn confim`         | **Import Config** Import the configuration to the database.                                                                                                      |
-| `yarn import-data`    | **Import Data** Import a copy of the canonical database backup into your local instance. This assumes the database backup is located in `./reference/db.sql.gz`. |
-| `yarn local-data-bak` | **Export Local Database** Create a local database backup. Saves the backup to the `./reference` directory.                                                       |
-| `yarn rebuild`        | **Rebuild the Site** Rebuild a fresh local instance of your site. Imports the canonical database backup and imports configuration into it.                       |
+| Command          | Description                                                                                                                                                      |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `confex`         | **Export Config** Export active configuration to the config directory.                                                                                           |
+| `confim`         | **Import Config** Import the configuration to the database.                                                                                                      |
+| `import-data`    | **Import Data** Import a copy of the canonical database backup into your local instance. This assumes the database backup is located in `./reference/db.sql.gz`. |
+| `local-data-bak` | **Export Local Database** Create a local database backup. Saves the backup to the `./reference` directory.                                                       |
+| `rebuild`        | **Rebuild the Site** Rebuild a fresh local instance of your site. Imports the canonical database backup and imports configuration into it.                       |
