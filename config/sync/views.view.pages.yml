@@ -166,7 +166,7 @@ display:
           expose:
             label: ''
           granularity: second
-      title: 'Pages (Child Styles Merged with Parent Styles)'
+      title: 'Pages (Project Styles Merged with Core Styles)'
       header: {  }
       footer: {  }
       empty: {  }
@@ -200,8 +200,8 @@ display:
         options:
           relationship: none
           view_mode: teaser
-      block_description: 'Pages (Parent Styles Only)'
-      title: 'Pages (Parent Styles Only)'
+      block_description: 'Pages (Core Styles Only)'
+      title: 'Pages (Core Styles Only)'
     cache_metadata:
       max-age: -1
       contexts:
@@ -217,7 +217,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      block_description: 'Pages (Child Styles Merged with Parent Styles)'
+      block_description: 'Pages (Project Styles Merged with Core Styles)'
     cache_metadata:
       max-age: -1
       contexts:
