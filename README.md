@@ -1,7 +1,9 @@
 # Sous Project
 
 This is a Drupal Project Created initially with the [Sous Project](https://github.com/fourkitchens/sous-drupal-project).
+
 Its theme is based on the [Emulsify Design System](https://github.com/emulsify-ds/emulsify-design-system).
+
 The theme is using upstream "Core" components and styles that can be shared across multiple projects, as well as custom "Project" specific components only used by this project.
 
 
@@ -22,7 +24,11 @@ This package provides some additional tooling to support the build.
 
 ### Helper scripts
 
-To use the helper script provided you will need to have `yarn` or `npm` installed. Then just run `yarn <command>` or `npm run <command>`. For example: `yarn import-data`. These commands are bash scripts located in the `./scripts/sous` directory and defined in `package.json`.
+To use the helper script provided you will need to have `yarn` or `npm` installed. Then just run `yarn <command>` or `npm run <command>`.
+
+For example: `yarn import-data`.
+
+These commands are bash scripts located in the `./scripts/sous` directory and defined in `package.json`.
 
 #### Configuration management scripts
 
