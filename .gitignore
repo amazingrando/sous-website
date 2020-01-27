@@ -107,12 +107,3 @@ web.config
 # Local reference files.
 /reference/**/*
 !/reference/.gitkeep
-
-# Remove me after sous install
-README.txt
-development.services.yml
-example.settings.local.php
-example.sites.php
-default.services.yml
-default.settings.php
-settings.php
