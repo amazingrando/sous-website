@@ -51,8 +51,8 @@
     {% endif %}
     {# Button #}
     {% if card__button__content %}
-      {% include "@child_atoms/buttons/child-button.twig" with {
-        button_base_class: card__button__base_class|default('child-button'),
+      {% include "@lc_atoms/buttons/lc-button.twig" with {
+        button_base_class: card__button__base_class|default('lc-button'),
         button_modifiers: card__button__modifiers,
         button_attributes: card__button__attributes,
         button_content: card__button__content,

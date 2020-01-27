@@ -1,0 +1,20 @@
+$lc-button-color: $lc-theme-blue;
+
+.lc-button {
+  color: $white;
+  background-color: $lc-button-color;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 6px;
+  font-family: cursive;
+  font-size: 2em;
+
+  &:hover {
+    background: darken($lc-button-color, 8%);
+    transition: all 0.3s ease;
+  }
+
+  &:active {
+    background: darken($lc-button-color, 25%);
+  }
+}
