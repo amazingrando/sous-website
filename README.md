@@ -1,38 +1,20 @@
 # Sous Project
 
-This will provide you with a starting Drupal project that is managed with Composer. The install will include a small set of contrib modules, a starting custom module for specific for the build, and a custom starting theme generated from Emulsify.
+This is a Drupal Project Created initially with the [Sous Project](https://github.com/fourkitchens/sous-drupal-project).
+Its theme is based on the [Emulsify Design System](https://github.com/emulsify-ds/emulsify-design-system).
+The theme is using upstream "Core" components and styles that can be shared across multiple projects, as well as custom "Project" specific components only used by this project.
 
 
 ## Install
 
-Use this command below and replace `PROJECT_NAME` with your chosen project name.
-
-```
-composer create-project fourkitchens/sous-drupal-project PROJECT_NAME --no-interaction
-
-```
-
-### Install custom theme & project module
-
-Install your theme
-- Follow the theme's setup instructions found in `/web/themes/contrib/emulsify-desig-system` 
-- Recommended naming for the theme is `/web/themes/custom/PROJECT_NAME`
-
-Create a new project module
-Generate a custom module at `/web/modules/custom/PROJECT_NAME` using drupal console. 
-Follow the documentation for the generate:module command [here](https://hechoendrupal.gitbooks.io/drupal-console/en/commands/generate-module.html)
-
-
-### Install Sous Drupal
-
-Get a local environment oporating. You can use the included lando configuration. Requires [Lando](https://docs.lando.dev/basics/installation.html#system-requirements) 
-
-```
-lando start
-```
-
-View your local URL and follow the install.
-
+- Clone this repo
+- `lando start` (Start up Lando)
+- `yarn import-data` (Import the provided database)
+- `cd web/themes/custom/line_chef` (Move to the theme directory)
+- `yarn` (Install the theme dependencies)
+- `yarn develop` (Compile the theme and start the Storybook instance)
+- Create three pages filling out all fields
+- View the homepage and you should see two views. One showing cards using the "Parent" styles only. And one using a mix of parent/child styles. (specifically, the blue button)
 
 ## Additional Tooling
 
@@ -76,7 +58,7 @@ yarn local-data-back
 
 Create a local database backup. Saves the backup to the `./reference` directory.
 
-**confex**
+**rebuild**
 
 ```
 yarn rebuild
