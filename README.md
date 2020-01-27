@@ -31,16 +31,10 @@ These commands are bash scripts located in the `./scripts/sous` directory and de
 
 #### Configuration management scripts
 
-| Function                  | Command               | Description                                                                                                           |
-| ------------------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Export Config**         | `yarn confex`         | Export active configuration to the config directory.                                                                  |
-| ------------------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Import Config**         | `yarn confim`         | Import the configuration to the database.                                                                             |
-| ------------------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Import Data**           | `yarn import-data`    | Import a copy of the canonical database backup into your local instance.                                              |
-|                           |                       | This assumes the database backup is located in `./reference/db.sql.gz`.                                               |
-| ------------------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Export Local Database** | `yarn local-data-bak` | Create a local database backup. Saves the backup to the `./reference` directory.                                      |
-| ------------------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Rebuild the Site**      | `yarn rebuild`        | Rebuild a fresh local instance of your site. Imports the canonical database backup and imports configuration into it. |
-| ------------------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Function                  | Command               | Description                                                                                                                                           |
+| ------------------------- | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Export Config**         | `yarn confex`         | Export active configuration to the config directory.                                                                                                  |
+| **Import Config**         | `yarn confim`         | Import the configuration to the database.                                                                                                             |
+| **Import Data**           | `yarn import-data`    | Import a copy of the canonical database backup into your local instance.<br />This assumes the database backup is located in `./reference/db.sql.gz`. |
+| **Export Local Database** | `yarn local-data-bak` | Create a local database backup. Saves the backup to the `./reference` directory.                                                                      |
+| **Rebuild the Site**      | `yarn rebuild`        | Rebuild a fresh local instance of your site. Imports the canonical database backup and imports configuration into it.                                 |
