@@ -6,7 +6,6 @@ Its theme is based on the [Emulsify Design System](https://github.com/emulsify-d
 
 The theme is using upstream "Core" [components](https://github.com/ModulesUnraveled/sous-components-twig) and [styles](https://github.com/ModulesUnraveled/sous-styles) that can be shared across multiple projects, as well as custom "Project" specific components only used by this project.
 
-
 ## Install
 
 - Clone this repo
@@ -32,42 +31,10 @@ These commands are bash scripts located in the `./scripts/sous` directory and de
 
 #### Configuration management scripts
 
-**confex**
-
-```
-yarn confex
-```
-
-Export active configuration to the config directory.
-
-**confim**
-
-```
-yarn confim
-```
-
-Import the configuration to the database.
-
-**import-data**
-
-```
-yarn import-data
-```
-
-Import a copy of the canonical database backup into your local instance. This assumes the database backup is located in `./reference/db.sql.gz`.
-
-**local-data-bak**
-
-```
-yarn local-data-bak
-```
-
-Create a local database backup. Saves the backup to the `./reference` directory.
-
-**rebuild**
-
-```
-yarn rebuild
-```
-
-Rebuild a fresh local instance of your site. Imports the canonical database backup and imports configuration into it.
+| Function                  | Command               | Description                                                                                                                                      |
+| ------------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Export Config**         | `yarn confex`         | Export active configuration to the config directory.                                                                                             |
+| **Import Config**         | `yarn confim`         | Import the configuration to the database.                                                                                                        |
+| **Import Data**           | `yarn import-data`    | Import a copy of the canonical database backup into your local instance. This assumes the database backup is located in `./reference/db.sql.gz`. |
+| **Export Local Database** | `yarn local-data-bak` | Create a local database backup. Saves the backup to the `./reference` directory.                                                                 |
+| **Rebuild the Site**      | `yarn rebuild`        | Rebuild a fresh local instance of your site. Imports the canonical database backup and imports configuration into it.                            |
