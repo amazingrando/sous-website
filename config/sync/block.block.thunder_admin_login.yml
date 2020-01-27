@@ -1,0 +1,22 @@
+uuid: 2df6ac95-f190-45d1-af7d-05b9d4787403
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - thunder_admin
+_core:
+  default_config_hash: CP5S7KwydIQG-pAItC3eD45HEKjRSV7gQPHjAIB6bqE
+id: thunder_admin_login
+theme: thunder_admin
+region: content
+weight: 10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

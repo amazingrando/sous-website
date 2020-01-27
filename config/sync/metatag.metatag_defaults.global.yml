@@ -1,0 +1,11 @@
+uuid: 1076b623-c112-4506-801c-449c1676d6a2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7cB8YPeT_Gm37ngY-NGcWg4R3SP2cNR5XqUSOLZxvIM
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url]'
+  title: '[current-page:title] | [site:name]'
