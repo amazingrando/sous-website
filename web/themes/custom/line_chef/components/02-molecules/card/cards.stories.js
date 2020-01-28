@@ -1,8 +1,8 @@
 import React from "react";
 
-// Parent Components
+// Core Components
 import card from "sous-components-twig/02-molecules/card/card.twig";
-// Parent Data
+// Core Data
 import cardData from "sous-components-twig/02-molecules/card/card.yml";
 import cardBgData from "sous-components-twig/02-molecules/card/card-bg.yml";
 

@@ -2,9 +2,9 @@ import React from 'react';
 
 import Button from './react/Button.component';
 
-// Parent Components
+// Core Components
 import button from 'sous-components-twig/01-atoms/buttons/twig/button.twig';
-// Parent Data
+// Core Data
 import buttonData from 'sous-components-twig/01-atoms/buttons/twig/button.yml';
 import buttonAltData from 'sous-components-twig/01-atoms/buttons/twig/button-alt.yml';
 import buttonAlt2Data from 'sous-components-twig/01-atoms/buttons/twig/button-alt2.yml';
