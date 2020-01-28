@@ -1,6 +1,6 @@
-// Parent Theme Styles
+// Core Theme Styles
 // This could be broken down to only include the specific scss files needed for the project
 @import "~sous-scss/style";
-// Child Theme Styles
+// Project Theme Styles
 @import "00-base/**/*.scss";
 @import "01-atoms/**/*.scss";
