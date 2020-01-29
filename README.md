@@ -9,6 +9,7 @@ The theme is using upstream "Core" [components](https://github.com/ModulesUnrave
 ## Install
 
 - Clone this repo
+- `composer install` (Install dependencies)
 - `lando start` (Start up Lando)
 - `yarn import-data` (Import the provided database)
 - `cd web/themes/custom/line_chef` (Move to the theme directory)
