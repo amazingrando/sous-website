@@ -1,4 +1,4 @@
-# Sous Project
+# Sous Website
 
 This is a Drupal Site initially created with the [Sous Project](https://github.com/fourkitchens/sous-drupal-project).
 
