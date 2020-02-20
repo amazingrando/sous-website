@@ -7,8 +7,7 @@ import siteHeader from 'sous-components-twig/03-organisms/site/site-header/site-
 import footerSocial from 'sous-components-twig/02-molecules/menus/social/social-menu.yml';
 import footerMenu from 'sous-components-twig/02-molecules/menus/inline/inline-menu.yml';
 import breadcrumbData from 'sous-components-twig/02-molecules/menus/breadcrumbs/breadcrumbs.yml';
-import mainMenubData from 'sous-components-twig/02-molecules/menus/main-menu/main-menu.yml';
-import siteHeaderData from 'sous-components-twig/03-organisms/site/site-header/site-header.yml';
+import mainMenuData from 'sous-components-twig/02-molecules/menus/main-menu/main-menu.yml';
 
 import 'sous-components-twig/02-molecules/menus/main-menu/main-menu';
 
@@ -29,11 +28,7 @@ export const header = () => {
   return (
     <div
       dangerouslySetInnerHTML={{
-        __html: siteHeader({
-          ...breadcrumbData,
-          ...mainMenubData,
-          ...siteHeaderData,
-        }),
+        __html: siteHeader({ ...breadcrumbData, ...mainMenuData }),
       }}
     />
   );

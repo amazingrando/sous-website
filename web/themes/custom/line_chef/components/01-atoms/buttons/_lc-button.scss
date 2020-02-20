@@ -1,7 +1,7 @@
 $lc-button-color: $lc-blue;
 
 .lc-button {
-  color: $white;
+  color: color('white');
   background-color: $lc-button-color;
   text-decoration: none;
   padding: 1rem;

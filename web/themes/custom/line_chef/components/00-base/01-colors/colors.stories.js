@@ -2,11 +2,8 @@ import React from 'react';
 
 import colors from 'sous-components-twig/00-base/01-colors/colors.twig';
 
-// Core Colors
 import grayscale from 'sous-components-twig/00-base/01-colors/colors-grayscale.yml';
 import branding from 'sous-components-twig/00-base/01-colors/colors-branding.yml';
-// Project Colors
-import lineChef from './colors.yml';
 
 /**
  * Storybook Definition.
@@ -18,7 +15,4 @@ export const Grayscale = () => (
 );
 export const Branding = () => (
   <div dangerouslySetInnerHTML={{ __html: colors(branding) }} />
-);
-export const LineChef = () => (
-  <div dangerouslySetInnerHTML={{ __html: colors(lineChef) }} />
 );
