@@ -7,4 +7,6 @@ import tables from 'sous-components-twig/01-atoms/tables/tables.twig';
  */
 export default { title: 'Atoms/Tables' };
 
-export const table = () => <div dangerouslySetInnerHTML={{ __html: tables({}) }} />;
+export const table = () => (
+  <div dangerouslySetInnerHTML={{ __html: tables({}) }} />
+);

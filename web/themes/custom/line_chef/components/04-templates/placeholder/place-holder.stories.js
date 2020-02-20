@@ -7,4 +7,6 @@ import placeHolderTwig from 'sous-components-twig/04-templates/placeholder/place
  */
 export default { title: 'Templates/Place Holder' };
 
-export const placeHolder = () => <div dangerouslySetInnerHTML={{ __html: placeHolderTwig({}) }} />;
+export const placeHolder = () => (
+  <div dangerouslySetInnerHTML={{ __html: placeHolderTwig({}) }} />
+);

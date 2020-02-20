@@ -9,4 +9,6 @@ import ctaData from 'sous-components-twig/02-molecules/cta/cta.yml';
  */
 export default { title: 'Molecules/CTA' };
 
-export const ctaExample = () => <div dangerouslySetInnerHTML={{ __html: cta(ctaData) }} />;
+export const ctaExample = () => (
+  <div dangerouslySetInnerHTML={{ __html: cta(ctaData) }} />
+);
