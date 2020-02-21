@@ -6,7 +6,14 @@ Its theme is based on the [Emulsify Design System](https://github.com/emulsify-d
 
 The theme is using upstream "Core" [components](https://github.com/ModulesUnraveled/sous-components-twig) and [styles](https://github.com/ModulesUnraveled/sous-styles) that can be shared across multiple projects, as well as custom "Project" specific components only used by this project.
 
-## Install
+## Frontend Install
+
+- Clone this repo
+- `cd sous-website/web/themes/custom/line_chef` (Move into the theme directory)
+- `yarn` (Install dependencies)
+- `yarn develop` (Start the build system and open Storybook)
+
+## Drupal Install
 
 - Clone this repo
 - `composer install` (Install dependencies)
@@ -14,7 +21,7 @@ The theme is using upstream "Core" [components](https://github.com/ModulesUnrave
 - `yarn import-data` (Import the provided database)
 - `cd web/themes/custom/line_chef` (Move to the theme directory)
 - `yarn` (Install the theme dependencies)
-- `yarn develop` (Compile the theme and start the Storybook instance)
+- `yarn build` (Compile the theme)
 - [Login to Drupal](https://sous-project.lndo.site/user) (u:admin/p:admin) and create three pages filling out all fields. (Or [edit the existing pages](https://sous-project.lndo.site/admin/content) - you should just need to upload your own images.)
 - [View the homepage](https://sous-project.lndo.site/) and you should see two views. One showing cards using the "Core" styles only. And one using a mix of core/project styles. (specifically, the blue button)
 
