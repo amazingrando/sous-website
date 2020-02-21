@@ -1,8 +1,19 @@
-$lc-blue: #3498db;
+// Define colors specific to the Line Chef property.
+$lc_colors: (
+  'lc-blue': #3498db,
+);
 
-// Styleguide
-.sg-colors__color {
-  &--lc-blue {
-    background-color: $lc-blue;
+// Merge the $lc_colors into the $color map from the global styles so that we
+// can access all of the colors through the `color` function.
+$color: map-merge($color, $lc_colors);
+
+// Styles for the Component Library
+.sg-colors {
+  &__color {
+    @each $name, $value in $color {
+      &--#{$name} {
+        background-color: $value;
+      }
+    }
   }
 }
