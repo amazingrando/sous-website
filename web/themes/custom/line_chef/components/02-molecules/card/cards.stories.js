@@ -9,6 +9,11 @@ import cardBgData from 'sous-components-twig/02-molecules/cards/basic/card-bg.ym
 import eventCardData from 'sous-components-twig/02-molecules/cards/event/event-card.yml';
 import newsCardData from 'sous-components-twig/02-molecules/cards/news/news-card.yml';
 
+// Project Components
+import lcCardTwig from './lc-card.twig';
+// Project Data
+import lcCardData from './lc-card.yml';
+
 /**
  * Storybook Definition.
  */
@@ -29,4 +34,8 @@ export const eventCard = () => (
 );
 export const newsCard = () => (
   <div dangerouslySetInnerHTML={{ __html: newsCardTwig(newsCardData) }} />
+);
+
+export const lineChefCard = () => (
+  <div dangerouslySetInnerHTML={{ __html: lcCardTwig(lcCardData) }} />
 );
