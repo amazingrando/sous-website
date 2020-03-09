@@ -1,0 +1,40 @@
+{% set page_layout_modifier = 'full' %}
+
+{% embed "@templates/full-width.twig" %}
+  {% block page_title %}
+    <section class="hero-custom" id="studio-hero">
+      {% include "@lc_atoms/images/studio-arts.twig" with {class: 'logo'} %}
+      <img src="../images/hero-painting.jpg" class="heaven"/>
+    </section>
+  {% endblock %}
+  {% block page_content %}
+    <section class="art-tools">
+      {% include "@atoms/text/headings/_heading.twig" with {
+        heading_level: '2',
+        heading: 'One of the Nation\'s Great Art Schools',
+      } %}
+      <p class=first>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum.</p>
+    </section>
+    <section class="art-events">
+      <h2 class="art-events__title">Art Events</h2>
+      <div class="grid-art">
+        <div class="grid-art__item" style="background: url('https://media.giphy.com/media/uOQqRWeWE9QUE/source.gif') no-repeat; background-size: cover;">
+          <h2>Photo Lectures Start This Week</h2>
+        </div>
+        <div class="grid-art__item" style="background: url('https://source.unsplash.com/v1VkxhTSh88/600x400') no-repeat; background-size: cover;">
+          <h2>No Deep Kissing: <span>Sculpture MFA Thesis Show Group 1</span></h2>
+        </div>
+        <div class="grid-art__item" style="background: url('https://source.unsplash.com/xb0wLfZH9Zo/600x400') no-repeat; background-size: cover;">
+          <h2><span>Lecture and Workshop with</span> Nicholas Muellner</h2>
+        </div>
+        <div class="grid-art__item" style="background: url('https://media.giphy.com/media/v0FQ0m3TaUAE0/source.gif') no-repeat center 50%; background-size: cover;">
+          <h2>"Stop in the Name of Motion" <span>Join the Animation class for a screening of recent works.</span></h2>
+        </div>
+        <div class="grid-art__item" style="background: url('https://source.unsplash.com/yu68fUQDvOI/600x400') no-repeat; background-size: cover;">
+          <h2> “Can’t you feel what’s going wrong” <span>Vault installation by Eli Johnson Learn more</span> </h2>
+        </div>
+      </div>
+    </section>
+  {% endblock %}
+{% endembed %}

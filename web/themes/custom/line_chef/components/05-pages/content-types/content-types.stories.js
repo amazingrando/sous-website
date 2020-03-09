@@ -1,14 +1,12 @@
 import React from 'react';
 import { useEffect } from '@storybook/client-api';
-
 import 'sous-components-twig/02-molecules/menus/main-menu/main-menu';
-
-import articleTwig from 'sous-components-twig/05-pages/content-types/article.twig';
-
 import mainMenuData from 'sous-components-twig/02-molecules/menus/main-menu/main-menu.yml';
 import breadcrumbData from 'sous-components-twig/02-molecules/menus/breadcrumbs/breadcrumbs.yml';
 import socialMenuData from 'sous-components-twig/02-molecules/menus/social/social-menu.yml';
 import footerMenuData from 'sous-components-twig/02-molecules/menus/inline/inline-menu.yml';
+import articleTwig from './lc-article.twig';
+import './lc-article';
 
 /**
  * Storybook Definition.
